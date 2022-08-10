@@ -127,7 +127,7 @@ journalctl -u teritorid.service -f -n 100
 
 # Eşleşmeye başlarken cüzdan oluşturalım (<> kalkacak):
 ```
-teritorid keys add <Rues>
+teritorid keys add <1000dolar>
 ```
 # Test tokeni için discorda gidelim: https://discord.gg/Z968SBZdXb
 ```
@@ -141,7 +141,7 @@ teritorid status 2>&1 | jq .SyncInfo
 
 # Eşleşince Validator oluşturma Moniker (validator ısmı) ve from (cüzdan) kısımlarını düzenleyin:
 ```
-teritorid tx staking create-validator --chain-id teritori-testnet-v2 --commission-rate 0.1 --commission-max-rate 0.1 --commission-max-change-rate 0.1 --min-self-delegation "900000" --amount 900000utori --pubkey $(teritorid tendermint show-validator) --moniker "RuesValidator" --from rues --fees 555utori
+teritorid tx staking create-validator --chain-id teritori-testnet-v2 --commission-rate 0.1 --commission-max-rate 0.1 --commission-max-change-rate 0.1 --min-self-delegation "900000" --amount 900000utori --pubkey $(teritorid tendermint show-validator) --moniker "1000dolar" --from 1000dolar --fees 555utori
 ```
 
 # Validator oluşturduktan sonra discordda role request kanalından rol alın
@@ -158,12 +158,11 @@ teritorid tx staking create-validator --chain-id teritori-testnet-v2 --commissio
 
 # Hesaplar:
 
-[<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="16px"> Twitter   ](https://twitter.com/Ruesandora0) 
+[<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="16px"> Twitter   ](https://twitter.com/1000Dolar1) 
 
 [<img src="https://cdn-icons-png.flaticon.com/512/1336/1336494.png" width="16px"> Forum   ](https://forum.rues.info/index.php)
 
-[<img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="16px"> Telegram Announcement   ](https://t.me/RuesAnnouncement)
 
-[<img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="16px"> Telegram Chat   ](https://t.me/RuesChat)
+
 
 [Discord](https://discord.gg/ruescommunity)
